@@ -30,32 +30,7 @@ while True:
     while True:
         genre_no = int(input("Enter the genre number: "))
         chosen_genre = ""
-
-        """
-        if genre_no == 1:
-            chosen_genre = "Classic"
-            break
-        elif genre_no == 2:
-            chosen_genre = "Historic"
-            break
-        elif genre_no == 3:
-            chosen_genre = "Thriller"
-            break
-        elif genre_no == 4:
-            chosen_genre = "Science Fiction"
-            break
-        elif genre_no == 5:
-            chosen_genre = "Mystery"
-            break
-        elif genre_no == 6:
-            chosen_genre = "Psychological Thriller"
-            break
-        else: 
-            print("Invalid Input.")
-        """
-
-        #that seems hard coded so..
-        #alternate code
+        
         j = 1
         for genre in books:
             if j == genre_no:
